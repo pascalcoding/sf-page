@@ -3,11 +3,15 @@
   margin: 0;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1F3044;
+}
+
 .header {
   background-color: #1F3044;
   color: #fff;
-  padding: 5px;
-  font-size: 0.8em;
+  padding: 7px;
   border-bottom: 3px solid #FB9039; 
 }
 
@@ -15,24 +19,52 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 85%;
   margin: auto;
+}
+
+.header .navbar h1 {
+  font-size: 1.3em;
 }
 
 .header .navbar ul {
   display: flex;
   list-style-type: none;
-  gap: 16px;
+  gap: 20px;
 }
 
 .header .navbar ul a {
   text-decoration: none;
   color: #fff;
   font-size: 1.1em;
+  font-weight: 600;
 }
 
 .header .navbar ul a:hover {
   color: #FB9039;
   font-size: 1.15em;
+  
+}
+
+.intro {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 25px;
+  font-size: 1.5em;
+}
+
+main {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  margin-top: 15px;
+  gap: 24px;
+}
+
+main .container {
+  border: 2px solid #FB9039;
+  border-radius: 5px;
+  padding: 10px;
 }
 
